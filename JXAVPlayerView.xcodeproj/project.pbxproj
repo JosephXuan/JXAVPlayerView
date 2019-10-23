@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8145F7D235D4DC900683C03 /* JXBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8145F7C235D4DC900683C03 /* JXBaseTabBarController.m */; };
+		B8145F80235D4EE200683C03 /* JXBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8145F7F235D4EE200683C03 /* JXBaseNavigationController.m */; };
+		B8145F83235D4F0500683C03 /* JXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8145F82235D4F0500683C03 /* JXBaseViewController.m */; };
+		B8145F89235D4F6300683C03 /* JXVideoPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8145F88235D4F6300683C03 /* JXVideoPlayViewController.m */; };
+		B8145F92235D58E900683C03 /* JXVideoHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8145F91235D58E900683C03 /* JXVideoHomeViewController.m */; };
+		B8145F95235D59F700683C03 /* JXVideoPlayListTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8145F94235D59F700683C03 /* JXVideoPlayListTabCell.m */; };
+		B8145F98235D5A1500683C03 /* JXVideoPlayListTabHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8145F97235D5A1500683C03 /* JXVideoPlayListTabHeadView.m */; };
+		B8145F9B235D5A3000683C03 /* JXVideoPlayListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8145F9A235D5A3000683C03 /* JXVideoPlayListTableView.m */; };
+		B8145FA0235D5C2600683C03 /* JXVideoPlayListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8145F9F235D5C2600683C03 /* JXVideoPlayListModel.m */; };
 		B841E0E22359BBAB0057C704 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B841E0E12359BBAB0057C704 /* AppDelegate.m */; };
 		B841E0E52359BBAB0057C704 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B841E0E42359BBAB0057C704 /* SceneDelegate.m */; };
 		B841E0E82359BBAB0057C704 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B841E0E72359BBAB0057C704 /* ViewController.m */; };
@@ -16,6 +25,17 @@
 		B841E0F32359BBAE0057C704 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B841E0F22359BBAE0057C704 /* main.m */; };
 		B841E0FD2359BBAE0057C704 /* JXAVPlayerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B841E0FC2359BBAE0057C704 /* JXAVPlayerViewTests.m */; };
 		B841E1082359BBAE0057C704 /* JXAVPlayerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B841E1072359BBAE0057C704 /* JXAVPlayerViewUITests.m */; };
+		B88B62FC235D931400724E30 /* JXAVPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B62FB235D931400724E30 /* JXAVPlayerView.m */; };
+		B88B6301235D963E00724E30 /* JXAVPlayerBottomActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B6300235D963E00724E30 /* JXAVPlayerBottomActionView.m */; };
+		B88B6304235D965300724E30 /* JXAVPlayerTopInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B6303235D965300724E30 /* JXAVPlayerTopInfoView.m */; };
+		B88B6308235D979700724E30 /* JXAVPlayerSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B6307235D979700724E30 /* JXAVPlayerSliderView.m */; };
+		B88B630C235D98E500724E30 /* JXAVPlayerProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B630B235D98E500724E30 /* JXAVPlayerProgressView.m */; };
+		B88B6313235D9AFF00724E30 /* UIColor+JXHex.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B6311235D9AFE00724E30 /* UIColor+JXHex.m */; };
+		B88B6318235DB86C00724E30 /* JXAVPlayerSettingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B6317235DB86C00724E30 /* JXAVPlayerSettingTableView.m */; };
+		B88B631B235EF82C00724E30 /* JXAVPlayerView+SubUI.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B631A235EF82C00724E30 /* JXAVPlayerView+SubUI.m */; };
+		B88B631F235F0EE100724E30 /* JXAVPlayerTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B631E235F0EE100724E30 /* JXAVPlayerTools.m */; };
+		B88B6322235FF5FC00724E30 /* NSString+Deal.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B6321235FF5FB00724E30 /* NSString+Deal.m */; };
+		E93E7BFEE40754044958C172 /* libPods-JXAVPlayerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1702EC348373CFB674AA6E40 /* libPods-JXAVPlayerView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +56,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1702EC348373CFB674AA6E40 /* libPods-JXAVPlayerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JXAVPlayerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B2AB0815423BDC998EA54E /* Pods-JXAVPlayerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXAVPlayerView.release.xcconfig"; path = "Target Support Files/Pods-JXAVPlayerView/Pods-JXAVPlayerView.release.xcconfig"; sourceTree = "<group>"; };
+		517ED1F2AA9FF0BC09308B44 /* Pods-JXAVPlayerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXAVPlayerView.debug.xcconfig"; path = "Target Support Files/Pods-JXAVPlayerView/Pods-JXAVPlayerView.debug.xcconfig"; sourceTree = "<group>"; };
+		B8145F7B235D4DC900683C03 /* JXBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXBaseTabBarController.h; sourceTree = "<group>"; };
+		B8145F7C235D4DC900683C03 /* JXBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXBaseTabBarController.m; sourceTree = "<group>"; };
+		B8145F7E235D4EE200683C03 /* JXBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXBaseNavigationController.h; sourceTree = "<group>"; };
+		B8145F7F235D4EE200683C03 /* JXBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXBaseNavigationController.m; sourceTree = "<group>"; };
+		B8145F81235D4F0500683C03 /* JXBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXBaseViewController.h; sourceTree = "<group>"; };
+		B8145F82235D4F0500683C03 /* JXBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXBaseViewController.m; sourceTree = "<group>"; };
+		B8145F87235D4F6300683C03 /* JXVideoPlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXVideoPlayViewController.h; sourceTree = "<group>"; };
+		B8145F88235D4F6300683C03 /* JXVideoPlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXVideoPlayViewController.m; sourceTree = "<group>"; };
+		B8145F8A235D518900683C03 /* JXAVplayerView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JXAVplayerView-Prefix.pch"; sourceTree = "<group>"; };
+		B8145F90235D58E900683C03 /* JXVideoHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXVideoHomeViewController.h; sourceTree = "<group>"; };
+		B8145F91235D58E900683C03 /* JXVideoHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXVideoHomeViewController.m; sourceTree = "<group>"; };
+		B8145F93235D59F700683C03 /* JXVideoPlayListTabCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXVideoPlayListTabCell.h; sourceTree = "<group>"; };
+		B8145F94235D59F700683C03 /* JXVideoPlayListTabCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXVideoPlayListTabCell.m; sourceTree = "<group>"; };
+		B8145F96235D5A1500683C03 /* JXVideoPlayListTabHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXVideoPlayListTabHeadView.h; sourceTree = "<group>"; };
+		B8145F97235D5A1500683C03 /* JXVideoPlayListTabHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXVideoPlayListTabHeadView.m; sourceTree = "<group>"; };
+		B8145F99235D5A3000683C03 /* JXVideoPlayListTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXVideoPlayListTableView.h; sourceTree = "<group>"; };
+		B8145F9A235D5A3000683C03 /* JXVideoPlayListTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXVideoPlayListTableView.m; sourceTree = "<group>"; };
+		B8145F9E235D5C2600683C03 /* JXVideoPlayListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXVideoPlayListModel.h; sourceTree = "<group>"; };
+		B8145F9F235D5C2600683C03 /* JXVideoPlayListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXVideoPlayListModel.m; sourceTree = "<group>"; };
 		B841E0DD2359BBAB0057C704 /* JXAVPlayerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXAVPlayerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B841E0E02359BBAB0057C704 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B841E0E12359BBAB0057C704 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +96,27 @@
 		B841E1032359BBAE0057C704 /* JXAVPlayerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXAVPlayerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B841E1072359BBAE0057C704 /* JXAVPlayerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXAVPlayerViewUITests.m; sourceTree = "<group>"; };
 		B841E1092359BBAE0057C704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B88B62FA235D931400724E30 /* JXAVPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXAVPlayerView.h; sourceTree = "<group>"; };
+		B88B62FB235D931400724E30 /* JXAVPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXAVPlayerView.m; sourceTree = "<group>"; };
+		B88B62FF235D963E00724E30 /* JXAVPlayerBottomActionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXAVPlayerBottomActionView.h; sourceTree = "<group>"; };
+		B88B6300235D963E00724E30 /* JXAVPlayerBottomActionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXAVPlayerBottomActionView.m; sourceTree = "<group>"; };
+		B88B6302235D965300724E30 /* JXAVPlayerTopInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXAVPlayerTopInfoView.h; sourceTree = "<group>"; };
+		B88B6303235D965300724E30 /* JXAVPlayerTopInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXAVPlayerTopInfoView.m; sourceTree = "<group>"; };
+		B88B6306235D979700724E30 /* JXAVPlayerSliderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXAVPlayerSliderView.h; sourceTree = "<group>"; };
+		B88B6307235D979700724E30 /* JXAVPlayerSliderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXAVPlayerSliderView.m; sourceTree = "<group>"; };
+		B88B630A235D98E500724E30 /* JXAVPlayerProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXAVPlayerProgressView.h; sourceTree = "<group>"; };
+		B88B630B235D98E500724E30 /* JXAVPlayerProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXAVPlayerProgressView.m; sourceTree = "<group>"; };
+		B88B6311235D9AFE00724E30 /* UIColor+JXHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JXHex.m"; sourceTree = "<group>"; };
+		B88B6312235D9AFE00724E30 /* UIColor+JXHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JXHex.h"; sourceTree = "<group>"; };
+		B88B6316235DB86C00724E30 /* JXAVPlayerSettingTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXAVPlayerSettingTableView.h; sourceTree = "<group>"; };
+		B88B6317235DB86C00724E30 /* JXAVPlayerSettingTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXAVPlayerSettingTableView.m; sourceTree = "<group>"; };
+		B88B6319235EF82C00724E30 /* JXAVPlayerView+SubUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JXAVPlayerView+SubUI.h"; sourceTree = "<group>"; };
+		B88B631A235EF82C00724E30 /* JXAVPlayerView+SubUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JXAVPlayerView+SubUI.m"; sourceTree = "<group>"; };
+		B88B631C235F083500724E30 /* JXAVPlayerView+publicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JXAVPlayerView+publicHeader.h"; sourceTree = "<group>"; };
+		B88B631D235F0EE100724E30 /* JXAVPlayerTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JXAVPlayerTools.h; sourceTree = "<group>"; };
+		B88B631E235F0EE100724E30 /* JXAVPlayerTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXAVPlayerTools.m; sourceTree = "<group>"; };
+		B88B6320235FF5FB00724E30 /* NSString+Deal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Deal.h"; sourceTree = "<group>"; };
+		B88B6321235FF5FB00724E30 /* NSString+Deal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Deal.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E93E7BFEE40754044958C172 /* libPods-JXAVPlayerView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +145,131 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		324E1C0A126B4B8BF03228AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				517ED1F2AA9FF0BC09308B44 /* Pods-JXAVPlayerView.debug.xcconfig */,
+				18B2AB0815423BDC998EA54E /* Pods-JXAVPlayerView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		585CFBA9D66029A7D59EC015 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1702EC348373CFB674AA6E40 /* libPods-JXAVPlayerView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8145F78235D4CC800683C03 /* JXAVplayerView */ = {
+			isa = PBXGroup;
+			children = (
+				B88B6312235D9AFE00724E30 /* UIColor+JXHex.h */,
+				B88B6311235D9AFE00724E30 /* UIColor+JXHex.m */,
+				B88B631D235F0EE100724E30 /* JXAVPlayerTools.h */,
+				B88B631E235F0EE100724E30 /* JXAVPlayerTools.m */,
+				B88B6320235FF5FB00724E30 /* NSString+Deal.h */,
+				B88B6321235FF5FB00724E30 /* NSString+Deal.m */,
+				B88B631C235F083500724E30 /* JXAVPlayerView+publicHeader.h */,
+				B88B6305235D976500724E30 /* SliderView */,
+				B88B62FE235D932400724E30 /* TopInfoView */,
+				B88B62FD235D932100724E30 /* BottomActionView */,
+				B88B62FA235D931400724E30 /* JXAVPlayerView.h */,
+				B88B62FB235D931400724E30 /* JXAVPlayerView.m */,
+				B88B6319235EF82C00724E30 /* JXAVPlayerView+SubUI.h */,
+				B88B631A235EF82C00724E30 /* JXAVPlayerView+SubUI.m */,
+			);
+			path = JXAVplayerView;
+			sourceTree = "<group>";
+		};
+		B8145F79235D4CDA00683C03 /* Ctrl */ = {
+			isa = PBXGroup;
+			children = (
+				B8145F87235D4F6300683C03 /* JXVideoPlayViewController.h */,
+				B8145F88235D4F6300683C03 /* JXVideoPlayViewController.m */,
+			);
+			path = Ctrl;
+			sourceTree = "<group>";
+		};
+		B8145F7A235D4D7400683C03 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B8145F7B235D4DC900683C03 /* JXBaseTabBarController.h */,
+				B8145F7C235D4DC900683C03 /* JXBaseTabBarController.m */,
+				B8145F7E235D4EE200683C03 /* JXBaseNavigationController.h */,
+				B8145F7F235D4EE200683C03 /* JXBaseNavigationController.m */,
+				B8145F81235D4F0500683C03 /* JXBaseViewController.h */,
+				B8145F82235D4F0500683C03 /* JXBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B8145F8B235D522300683C03 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B8145F8E235D568E00683C03 /* Cell */,
+				B8145F8D235D568300683C03 /* TabHeadView */,
+				B8145F8C235D567800683C03 /* TableView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B8145F8C235D567800683C03 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				B8145F99235D5A3000683C03 /* JXVideoPlayListTableView.h */,
+				B8145F9A235D5A3000683C03 /* JXVideoPlayListTableView.m */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		B8145F8D235D568300683C03 /* TabHeadView */ = {
+			isa = PBXGroup;
+			children = (
+				B8145F96235D5A1500683C03 /* JXVideoPlayListTabHeadView.h */,
+				B8145F97235D5A1500683C03 /* JXVideoPlayListTabHeadView.m */,
+			);
+			path = TabHeadView;
+			sourceTree = "<group>";
+		};
+		B8145F8E235D568E00683C03 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B8145F93235D59F700683C03 /* JXVideoPlayListTabCell.h */,
+				B8145F94235D59F700683C03 /* JXVideoPlayListTabCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B8145F8F235D58B300683C03 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B8145F90235D58E900683C03 /* JXVideoHomeViewController.h */,
+				B8145F91235D58E900683C03 /* JXVideoHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B8145F9C235D5BE500683C03 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B8145F9E235D5C2600683C03 /* JXVideoPlayListModel.h */,
+				B8145F9F235D5C2600683C03 /* JXVideoPlayListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8145F9D235D5BF000683C03 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				B8145F9C235D5BE500683C03 /* Model */,
+				B8145F8B235D522300683C03 /* View */,
+				B8145F79235D4CDA00683C03 /* Ctrl */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
 		B841E0D42359BBAB0057C704 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +277,8 @@
 				B841E0FB2359BBAE0057C704 /* JXAVPlayerViewTests */,
 				B841E1062359BBAE0057C704 /* JXAVPlayerViewUITests */,
 				B841E0DE2359BBAB0057C704 /* Products */,
+				324E1C0A126B4B8BF03228AE /* Pods */,
+				585CFBA9D66029A7D59EC015 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,10 +297,15 @@
 			children = (
 				B841E0E02359BBAB0057C704 /* AppDelegate.h */,
 				B841E0E12359BBAB0057C704 /* AppDelegate.m */,
-				B841E0E32359BBAB0057C704 /* SceneDelegate.h */,
-				B841E0E42359BBAB0057C704 /* SceneDelegate.m */,
 				B841E0E62359BBAB0057C704 /* ViewController.h */,
 				B841E0E72359BBAB0057C704 /* ViewController.m */,
+				B841E0E32359BBAB0057C704 /* SceneDelegate.h */,
+				B841E0E42359BBAB0057C704 /* SceneDelegate.m */,
+				B8145F78235D4CC800683C03 /* JXAVplayerView */,
+				B8145F7A235D4D7400683C03 /* Base */,
+				B8145F8F235D58B300683C03 /* Home */,
+				B8145F9D235D5BF000683C03 /* Mine */,
+				B8145F8A235D518900683C03 /* JXAVplayerView-Prefix.pch */,
 				B841E0E92359BBAB0057C704 /* Main.storyboard */,
 				B841E0EC2359BBAE0057C704 /* Assets.xcassets */,
 				B841E0EE2359BBAE0057C704 /* LaunchScreen.storyboard */,
@@ -137,6 +333,53 @@
 			path = JXAVPlayerViewUITests;
 			sourceTree = "<group>";
 		};
+		B88B62FD235D932100724E30 /* BottomActionView */ = {
+			isa = PBXGroup;
+			children = (
+				B88B62FF235D963E00724E30 /* JXAVPlayerBottomActionView.h */,
+				B88B6300235D963E00724E30 /* JXAVPlayerBottomActionView.m */,
+				B88B6309235D98B800724E30 /* ProgressView */,
+				B88B6315235DB82500724E30 /* SettingView */,
+			);
+			path = BottomActionView;
+			sourceTree = "<group>";
+		};
+		B88B62FE235D932400724E30 /* TopInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				B88B6302235D965300724E30 /* JXAVPlayerTopInfoView.h */,
+				B88B6303235D965300724E30 /* JXAVPlayerTopInfoView.m */,
+			);
+			path = TopInfoView;
+			sourceTree = "<group>";
+		};
+		B88B6305235D976500724E30 /* SliderView */ = {
+			isa = PBXGroup;
+			children = (
+				B88B6306235D979700724E30 /* JXAVPlayerSliderView.h */,
+				B88B6307235D979700724E30 /* JXAVPlayerSliderView.m */,
+			);
+			path = SliderView;
+			sourceTree = "<group>";
+		};
+		B88B6309235D98B800724E30 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				B88B630A235D98E500724E30 /* JXAVPlayerProgressView.h */,
+				B88B630B235D98E500724E30 /* JXAVPlayerProgressView.m */,
+			);
+			path = ProgressView;
+			sourceTree = "<group>";
+		};
+		B88B6315235DB82500724E30 /* SettingView */ = {
+			isa = PBXGroup;
+			children = (
+				B88B6316235DB86C00724E30 /* JXAVPlayerSettingTableView.h */,
+				B88B6317235DB86C00724E30 /* JXAVPlayerSettingTableView.m */,
+			);
+			path = SettingView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +387,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B841E10C2359BBAE0057C704 /* Build configuration list for PBXNativeTarget "JXAVPlayerView" */;
 			buildPhases = (
+				A2814F37B4A56858C8EFCAD3 /* [CP] Check Pods Manifest.lock */,
 				B841E0D92359BBAB0057C704 /* Sources */,
 				B841E0DA2359BBAB0057C704 /* Frameworks */,
 				B841E0DB2359BBAB0057C704 /* Resources */,
@@ -262,15 +506,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A2814F37B4A56858C8EFCAD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JXAVPlayerView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B841E0D92359BBAB0057C704 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B841E0E82359BBAB0057C704 /* ViewController.m in Sources */,
+				B8145F7D235D4DC900683C03 /* JXBaseTabBarController.m in Sources */,
+				B88B6304235D965300724E30 /* JXAVPlayerTopInfoView.m in Sources */,
+				B8145F80235D4EE200683C03 /* JXBaseNavigationController.m in Sources */,
 				B841E0E22359BBAB0057C704 /* AppDelegate.m in Sources */,
+				B88B6313235D9AFF00724E30 /* UIColor+JXHex.m in Sources */,
+				B88B6318235DB86C00724E30 /* JXAVPlayerSettingTableView.m in Sources */,
+				B88B631F235F0EE100724E30 /* JXAVPlayerTools.m in Sources */,
+				B88B6301235D963E00724E30 /* JXAVPlayerBottomActionView.m in Sources */,
+				B8145FA0235D5C2600683C03 /* JXVideoPlayListModel.m in Sources */,
+				B8145F98235D5A1500683C03 /* JXVideoPlayListTabHeadView.m in Sources */,
+				B88B631B235EF82C00724E30 /* JXAVPlayerView+SubUI.m in Sources */,
+				B8145F89235D4F6300683C03 /* JXVideoPlayViewController.m in Sources */,
+				B8145F95235D59F700683C03 /* JXVideoPlayListTabCell.m in Sources */,
+				B88B62FC235D931400724E30 /* JXAVPlayerView.m in Sources */,
+				B8145F9B235D5A3000683C03 /* JXVideoPlayListTableView.m in Sources */,
+				B8145F92235D58E900683C03 /* JXVideoHomeViewController.m in Sources */,
+				B88B630C235D98E500724E30 /* JXAVPlayerProgressView.m in Sources */,
 				B841E0F32359BBAE0057C704 /* main.m in Sources */,
 				B841E0E52359BBAB0057C704 /* SceneDelegate.m in Sources */,
+				B88B6322235FF5FC00724E30 /* NSString+Deal.m in Sources */,
+				B88B6308235D979700724E30 /* JXAVPlayerSliderView.m in Sources */,
+				B8145F83235D4F0500683C03 /* JXBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +663,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +715,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,9 +725,11 @@
 		};
 		B841E10D2359BBAE0057C704 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 517ED1F2AA9FF0BC09308B44 /* Pods-JXAVPlayerView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "JXAVPlayerView/JXAVplayerView-Prefix.pch";
 				INFOPLIST_FILE = JXAVPlayerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,9 +743,11 @@
 		};
 		B841E10E2359BBAE0057C704 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B2AB0815423BDC998EA54E /* Pods-JXAVPlayerView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "JXAVPlayerView/JXAVplayerView-Prefix.pch";
 				INFOPLIST_FILE = JXAVPlayerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
