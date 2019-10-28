@@ -1,4 +1,4 @@
-#下面两行是指明依赖库的来源地址（百家云）
+#下面两行是指明依赖库的来源地址
 source 'https://github.com/CocoaPods/Specs.git'
 #source ''
 
